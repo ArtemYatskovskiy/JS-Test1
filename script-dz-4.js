@@ -45,6 +45,28 @@
 // при натисканні на кнопку html - має видати коротке визначення що це таке
 // при натисканні на кнопку css - має видати коротке визначення що це таке
 
+// const infoButton = {
+//   showInfo() {
+//     console.log("Опис : ", this.info);
+//   },
+// };
+
+// const htmlInfo = {
+//   info: "HTML — це мова розмітки, яка створює основу (каркас) веб-сторінки.",
+// };
+
+// const cssInfo = {
+//   info: "CSS — це мова стилів, яка відповідає за візуальне оформлення.",
+// };
+
+// document
+//   .querySelector("#HTML")
+//   .addEventListener("click", infoButton.showInfo.bind(htmlInfo));
+
+// document
+//   .querySelector("#CSS")
+//   .addEventListener("click", infoButton.showInfo.bind(cssInfo));
+
 // --3--
 // Написати функцію магазин, яка отримує назву товару, ціну за кг і кількість товару
 // функція має повертати назву товару і вартість
@@ -52,3 +74,15 @@
 // 1) banana 30, 4,5
 // 2) cherry 58, 1,3
 // 3) jrange 89. 3,4
+
+// function shop(nameProduct, pricePerKg, quantityProduct) {
+//   const productInfo = {
+//     name: nameProduct,
+//     price: pricePerKg * quantityProduct,
+//   };
+//   return console.log(productInfo);
+// }
+
+// shop("banana", 30, 4.5);
+// shop("cherry", 58, 1.3);
+// shop("jrange", 89, 3.4);
